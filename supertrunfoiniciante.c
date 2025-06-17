@@ -11,7 +11,7 @@ struct Carta {
 };
 
 float calcularDensidadePopulacional(struct Carta c) {
-    return (float)c.populacao / c.area;  // Corrigido para divisão float
+    return (float)c.populacao / c.area;
 }
 
 float calcularPIBPerCapita(struct Carta c) {
